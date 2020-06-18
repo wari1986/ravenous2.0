@@ -15,6 +15,7 @@ class SearchBar extends React.Component{
     });
   }
 }
+
   render(){
     return(<div class="SearchBar">
       <div className="SearchBar-sort-options">
@@ -31,3 +32,5 @@ class SearchBar extends React.Component{
       </div>
     </div>);
   }
+
+export default SearchBar;
